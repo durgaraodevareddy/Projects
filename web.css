@@ -10,7 +10,7 @@ body{
     
 }
 .banner{
-background-image: url("tail.jpeg");
+background-image: url("https://thumbs.dreamstime.com/b/print-134228406.jpg");
 background-position: center ;
 background-size : cover;
 background-repeat: no-repeat;
@@ -36,8 +36,8 @@ max-width: 100%;
     font-size: 30px;
     padding: 10px 0px;
 }
-.bannercontent .bannertitle h3{
-     color: #111;
+.bannercontent .bannertitle h1{
+     color:white;
      font-weight: 400;
      font-size: 20px;
 
@@ -86,7 +86,7 @@ nav .actions .signin{
 nav .actions .login  :hover {
     nav .actions .login{
   background-color: lightskyblue;
-    color : #111;
+    color :white;
     transition :  0.8 sec;
 
     cursor : pointer;
@@ -101,7 +101,7 @@ nav .actions .login  :hover {
         border: 2px red;
         display: flex;
     }
-    h4{
+    h3{
         text-align: center;
         background-color: #18101a;
         color: white;
@@ -110,7 +110,7 @@ nav .actions .login  :hover {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: 600
     }
-    h4:hover{
+    h3:hover{
         font-size: 2.5rem;
         font-style: italic;
     }
